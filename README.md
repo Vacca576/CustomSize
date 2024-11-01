@@ -1,5 +1,4 @@
 ﻿[![downloads](https://img.shields.io/github/downloads/Vacca576/CustomSize/total?style=for-the-badge&logo=icloud&color=%233A6D8C)](https://github.com/Vacca576/CustomSize/releases/latest)ㅤ
-![Latest](https://img.shields.io/github/v/release/Vacca576/CustomSize?style=for-the-badge&label=Latest%20Release&color=%23D91656)
 
 # Custom-Size for EXILED
 
