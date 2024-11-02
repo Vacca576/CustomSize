@@ -23,7 +23,7 @@ namespace CustomSize
         {
             Instance = this;
             this.eventHandlers = new EventHandlers();
-            Exiled.Events.Handlers.Player.Spawned += new CustomEventHandler<Exiled.Events.EventArgs.Player.SpawnedEventArgs>(eventHandlers.OnPlayerSpawned);
+            Exiled.Events.Handlers.Player.Spawned += eventHandlers.OnPlayerSpawned;
 
             Log.Debug("CustomRandomSize Size Enabled");
             base.OnEnabled();
@@ -31,7 +31,7 @@ namespace CustomSize
 
         public override void OnDisabled()
         {
-            Exiled.Events.Handlers.Player.Spawned -= new CustomEventHandler<Exiled.Events.EventArgs.Player.SpawnedEventArgs>(eventHandlers.OnPlayerSpawned);
+            Exiled.Events.Handlers.Player.Spawned -= eventHandlers.OnPlayerSpawned;
             Instance = null;
             this.eventHandlers = null;
 
